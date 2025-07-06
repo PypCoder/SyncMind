@@ -1,0 +1,21 @@
+# GUI Framework
+tk
+
+# Backend (optional Flask API)
+flask
+
+# Data Manipulation
+pandas
+
+# Firebase (if used)
+firebase-admin
+
+# Supabase (alternative backend)
+supabase
+
+# PostgreSQL / MySQL (optional DB clients)
+psycopg2-binary     # PostgreSQL
+mysql-connector-python  # MySQL
+
+# General purpose utilities
+requests
