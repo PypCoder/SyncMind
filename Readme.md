@@ -1,5 +1,5 @@
 # 🧠 SyncMind
-![SyncMind](gui/assets/icon_image_3.ico)
+![SyncMind](gui/assets/icon_image_3.jpg)
 > A modular, offline-first intelligent personal productivity tool.  
 > **Think better. Do smarter. All in one place.**
 
@@ -197,11 +197,23 @@ rooms = [
 ```
 > Make sure *page* is the same as your *room's class name* — i.e. **Class MyRoom(tk.Frame)**
 
-## 🔙 Important Pull Requests
+<details>
+  <summary>📦 Internal Room Registry (Click to Expand)</summary>
 
-| PR #  | Title                           | Link     |
-|-------|---------------------------------|----------|
-|  #1  | ✨ wireframes from Abeeha Ali         | [#1](https://github.com/PypCoder/SyncMind/pull/1) |
+  <br/>
+
+  ```python
+  rooms = [
+      {"name": "QuoteRoom", "page": "QuoteRoom"},
+      {"name": "CourtroomAI", "page": "CourtroomAI"},
+      {"name": "EDA Explorer", "page": "EDAExplorer"},
+      {"name": "House Price Predictor", "page": "HousePricePredictor"},
+      {"name": "Focus Timer", "page": "FocusTimer"},
+      {"name": "Decision Dice", "page": "DecisionDiceRoom"},
+      {"name": "Would You Rather", "page": "WouldYouRatherRoom"}
+  ]
+```
+<blockquote> 🛠️ Each room is modularly imported, registered, and routed using the <code>controller.show_frame()</code> system. </blockquote> </details>
 
 ---
 
