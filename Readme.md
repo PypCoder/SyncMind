@@ -1,5 +1,5 @@
 # 🧠 SyncMind
-![SyncMind](gui\assets\icon_image_3.ico)
+![SyncMind](gui/assets/icon_image_3.ico)
 > A modular, offline-first intelligent personal productivity tool.  
 > **Think better. Do smarter. All in one place.**
 
@@ -92,7 +92,7 @@ Built to support creators, coders, thinkers, and dreamers who work alone but thi
 ---
 
 ### 🔐 Login Screen
-![Login Screen](gui\Preview\Login.PNG)
+![Login Screen](gui/Preview/Login.PNG)
 
 - Minimal and clean login UI  
 - Email/password fields with validation  
@@ -101,7 +101,7 @@ Built to support creators, coders, thinkers, and dreamers who work alone but thi
 ---
 
 ### 🧭 The Pulse (Dashboard)
-![Pulse Dashboard](gui\Preview\The_Pulse.PNG)
+![Pulse Dashboard](gui/Preview/The_Pulse.PNG)
 
 - Centralized task view and tracker  
 - View tasks by status: Active, Completed, etc.  
@@ -111,7 +111,7 @@ Built to support creators, coders, thinkers, and dreamers who work alone but thi
 ---
 
 ### 🏠 Reception Room
-![Reception](gui\Preview\Reception.PNG)
+![Reception](gui/Preview/Reception.PNG)
 
 - Room selection hub  
 - Navigate to themed Rooms (e.g., CourtroomAI, Timer)  
@@ -120,7 +120,7 @@ Built to support creators, coders, thinkers, and dreamers who work alone but thi
 ---
 
 ### ⚖️ Courtroom AI
-![Courtroom AI](gui\Preview\CourtroomAI.PNG)
+![Courtroom AI](gui/Preview/CourtroomAI.PNG)
 
 - Type a case or dilemma and get a neutral “verdict”  
 - Great for quick decisions or debates  
@@ -129,7 +129,7 @@ Built to support creators, coders, thinkers, and dreamers who work alone but thi
 ---
 
 ### 🏡 House Price Predictor
-![House Price Predictor](gui\Preview\House_Price_Predictor.PNG)
+![House Price Predictor](gui/Preview/House_Price_Predictor.PNG)
 
 - Enter home specs (area, bedrooms, etc.)  
 - Backend ML model returns predicted price  
