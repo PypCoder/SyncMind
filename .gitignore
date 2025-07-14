@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Tkinter cache or logs
+*.log
+*.db
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# VSCode and JetBrains IDE settings
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# PyInstaller build output
+build/
+dist/
+*.spec
+
+# Local config or secrets
+config.json
+.env
+*.sqlite3
+
+# Jupyter/IPython notebook checkpts
+.ipynb_checkpoints/
+
+# Backup or temp files
+*.bak
+*.tmp
+*.swp
+*~
+
+# Node/npm stuff (in case any frontend is added later)
+node_modules/
+
+# Installer / wheel / egg files
+*.egg
+*.egg-info/
+dist/

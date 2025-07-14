@@ -1,21 +1,24 @@
+## ✅`requirements.txt`
+
+```txt
 # GUI Framework
 tk
 
-# Backend (optional Flask API)
+# Flask-based Backend (optional)
 flask
 
 # Data Manipulation
 pandas
 
-# Firebase (if used)
-firebase-admin
+# Machine Learning (for Rooms like House Price Predictor)
+joblib # to load scikit-learn ML Model
 
-# Supabase (alternative backend)
+# Supabase Client (for PostgREST API)
 supabase
 
-# PostgreSQL / MySQL (optional DB clients)
-psycopg2-binary     # PostgreSQL
-mysql-connector-python  # MySQL
+# PostgreSQL / MySQL clients (optional)
+# psycopg2-binary
+# mysql-connector-python
 
-# General purpose utilities
+# General purpose libraries
 requests
